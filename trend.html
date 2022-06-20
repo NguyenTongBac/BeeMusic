@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./assests/Font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/trendStyle.css">
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/responsive.css">
     <link rel="stylesheet" href="./assests/img/">
@@ -35,10 +36,10 @@
                 <div class="navbar-content">
                     <nav>
                             <li class="navbar-content__icon">
-                                <a href="#"><i class="fas fa-home"></i>Home</a>
+                                <a href="index.html"><i class="fas fa-home"></i>Home</a>
                             </li>
                             <li class="navbar-content__icon">
-                                <a href="trend.html"><i class="fas fa-chart-line"></i>Trend</a>
+                                <a href="#"><i class="fas fa-chart-line"></i>Trend</a>
                             </li>
                             <li class="navbar-content__icon">
                                 <a href="#"><i class="fas fa-compass"></i>Feed</a>
@@ -113,33 +114,65 @@
                     <span><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
-            <div class="main-content__banner">
-                <p class="main-content__banner-artist">Artist</p>
-                <h4 class="main-content__banner-des">On Top Of The World</h4>
+            <div class="main-content__box">
+            <div class="main-content__banner banner1">
+                <p class="main-content__banner-artist">BANG KIEU</p>
+                <h4 class="main-content__banner-des">Con mua bang gia</h4>
                 <div class="main-content__banner-btn">
-                    <button class="play-btn">PLAY</button>
-                    <button class="follow-btn">FOLLOW</button>
+                    <!-- <button class="play-btn">PLAY</button>
+                    <button class="follow-btn">FOLLOW</button> -->
+                    <audio controls class="audio">
+                        <source src="assests/mp3/cmbg.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
                 </div>
                 <span class="main-content__view">Monthly listeners
                     <p>50.000</p>
                 </span>
             </div>
-            <div class="my-playlist">
-                <div class="playlist-head">
-                    <h4>My Playlist</h4>   
-                    <a class="btn-hover">Show all</a> 
+            <div class="main-content__banner banner2">
+                <p class="main-content__banner-artist">TRUC NHAN</p>
+                <h4 class="main-content__banner-des" style="width: 15rem !important">Co khong giu mat dung tim</h4>
+                <div class="main-content__banner-btn">
+                    <audio controls class="audio">
+                        <source src="assests/mp3/ttbl.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
                 </div>
-                <div class="playlist-list">
-                    <div class="playlist playlist-list__title">
-                        <p class="playlist__number">#</p>
-                        <p class="playlist__title">TITLE</p>
-                        <p class="playlist__artist">ARTIST</p>
-                        <p class="playlist__time">TIME</p>
-                    </div>
-                </div>
+                <span class="main-content__view">Monthly listeners
+                    <p>45.296</p>
+                </span>
             </div>
+            <div class="main-content__banner banner3">
+                <p class="main-content__banner-artist">TRUNG QUAN IDOL</p>
+                <h4 class="main-content__banner-des" style="width: 15rem !important">Dau ai chung tinh duoc mai</h4>
+                <div class="main-content__banner-btn">
+                    <audio controls class="audio">
+                        <source src="assests/mp3/actdm.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
+                </div>
+                <span class="main-content__view">Monthly listeners
+                    <p>30.000</p>
+                </span>
+            </div>
+            <div class="main-content__banner banner4">
+                <p class="main-content__banner-artist">BUI ANH TUAN</p>
+                <h4 class="main-content__banner-des">Hen mot mai</h4>
+                <div class="main-content__banner-btn">
+                    <audio controls class="audio">
+                        <source src="assests/mp3/hmm.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
+                </div>
+                <span class="main-content__view">Monthly listeners
+                    <p>20.000</p>
+                </span>
+            </div>
+        </div>
+            
 
-            <div class="play-song">
+            <!-- <div class="play-song">
                 <div class="play-control">
                     <div class="play-control__act">
                         <i class="far fa-heart" id='heart'></i>
@@ -148,9 +181,9 @@
                     </div>
                     <div class="play-control__main">
                         <i class="fas fa-redo-alt play-repeat"></i>
-                        <i class="fas fa-fast-backward play-backward main-icon"></i>
+                        <i class="fas fa-fast-backward play-backward main-icon"></i> -->
                         <!-- <i class="fas fa-pause-circle pause-icon main-icon main-icon--big"></i> -->
-                        <span class="play-inner">
+                        <!-- <span class="play-inner">
                             <i class="fas fa-play-circle play-icon main-icon main-icon--big"></i>
                         </span>
                         <i class="fas fa-fast-forward play-forward main-icon"></i>
@@ -165,10 +198,10 @@
                 <div class="play-seekbar">
                     <div class="timer__left">0:00</div>
                     <input type="range" name="range" id="range" class="range" />
-                    <audio src="./assests/mp3/actdm.mp3" id="song"></audio>
+                    <audio src="./assests/mp3/ntt.mp3" id="song"></audio>
                     <div class="timer__right">3.00</div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <!--
@@ -264,7 +297,6 @@
         </div>
     </div>
 </div>
-    <script src="./assests/main.js"></script>
-    <script src="./assests/javaScript/home.js"></script>
+    <script src="./assests/javaScript/new.js></script>
 </body>
 </html>

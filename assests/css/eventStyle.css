@@ -1,0 +1,34 @@
+.main-content__box{
+    height: 510px;
+    overflow-y: auto;
+}
+.main-content__banner::-webkit-scrollbar{
+    display: none;
+}
+.main-content__banner{
+    margin: 10px;
+}
+.event1{
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)), url(../img/event/event1.jpg) no-repeat left center/cover !important;
+}
+.event2{
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)), url(../img/event/event2.jpg) no-repeat right bottom/cover !important;
+}
+.event3{
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)), url(../img/event/event3.jpg) no-repeat right center/cover !important;
+}
+.event4{
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)), url(../img/event/event4.jpg) no-repeat right center/cover !important;
+}
+.information__event{
+    display: none;
+}
+.event:hover{
+    height: 20rem !important;
+}
+.event:hover .information__event{
+    display: inline;
+}
+.main-content__banner{
+    transition: all 0.5s;
+}

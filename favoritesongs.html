@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./assests/Font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/favoriteSongsStyle.css">
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/responsive.css">
     <link rel="stylesheet" href="./assests/img/">
@@ -35,7 +36,7 @@
                 <div class="navbar-content">
                     <nav>
                             <li class="navbar-content__icon">
-                                <a href="#"><i class="fas fa-home"></i>Home</a>
+                                <a href="index.html"><i class="fas fa-home"></i>Home</a>
                             </li>
                             <li class="navbar-content__icon">
                                 <a href="trend.html"><i class="fas fa-chart-line"></i>Trend</a>
@@ -64,7 +65,7 @@
                         <p class=" navbar-content__title">Your Collection</p>
                         <ul>
                             <li class="navbar-content__icon">
-                                <a href="favoritesongs.html"><i class="fas fa-heart"></i>Favorite Songs</a>
+                                <a href="#"><i class="fas fa-heart"></i>Favorite Songs</a>
                             </li>
                             <li class="navbar-content__icon">
                                 <a href="#"><i class="fas fa-users"></i>Artist</a>
@@ -129,7 +130,7 @@
                     <h4>My Playlist</h4>   
                     <a class="btn-hover">Show all</a> 
                 </div>
-                <div class="playlist-list">
+                <div class="favoritePlaylist-list">
                     <div class="playlist playlist-list__title">
                         <p class="playlist__number">#</p>
                         <p class="playlist__title">TITLE</p>
@@ -142,7 +143,7 @@
             <div class="play-song">
                 <div class="play-control">
                     <div class="play-control__act">
-                        <i class="far fa-heart" id='heart'></i>
+                        <i class="far fa-heart" id='heart' style="color: red;"></i>
                         <i class="fas fa-music"></i>
                         <i class="fas fa-expand-alt"></i>
                     </div>
@@ -165,7 +166,7 @@
                 <div class="play-seekbar">
                     <div class="timer__left">0:00</div>
                     <input type="range" name="range" id="range" class="range" />
-                    <audio src="./assests/mp3/actdm.mp3" id="song"></audio>
+                    <audio src="./assests/mp3/ntt.mp3" id="song"></audio>
                     <div class="timer__right">3.00</div>
                 </div>
             </div>
@@ -265,6 +266,6 @@
     </div>
 </div>
     <script src="./assests/main.js"></script>
-    <script src="./assests/javaScript/home.js"></script>
+    <script src="./assests/javaScript/favoriteSong.js"></script>
 </body>
 </html>

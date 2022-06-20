@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./assests/Font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/eventStyle.css">
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/responsive.css">
     <link rel="stylesheet" href="./assests/img/">
@@ -35,7 +36,7 @@
                 <div class="navbar-content">
                     <nav>
                             <li class="navbar-content__icon">
-                                <a href="#"><i class="fas fa-home"></i>Home</a>
+                                <a href="index.html"><i class="fas fa-home"></i>Home</a>
                             </li>
                             <li class="navbar-content__icon">
                                 <a href="trend.html"><i class="fas fa-chart-line"></i>Trend</a>
@@ -55,7 +56,7 @@
                                 <a href="#"><i class="fas fa-calendar-alt"></i>Realese Calendar</a>
                             </li>
                             <li class="navbar-content__icon">
-                                <a href="event.html"><i class="fas fa-ticket-alt"></i>Events</a>
+                                <a href="#"><i class="fas fa-ticket-alt"></i>Events</a>
                             </li>
                         </ul>
                     </nav>
@@ -107,68 +108,62 @@
 
             <p class="main-content__des">What's hot<span><img src="./assests/img/fire.png" alt="" width="16px" height="17px"></span></p>
             <div class="main-content__trend">
-                <div class="main-content__trend-title">Trending</div>
+                <div class="main-content__trend-title">Event</div>
                 <div class="main-content__trend-more btn-hover">
                     More
                     <span><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
-            <div class="main-content__banner">
-                <p class="main-content__banner-artist">Artist</p>
-                <h4 class="main-content__banner-des">On Top Of The World</h4>
+            <div class="main-content__box">
+            <div class="main-content__banner event event1">
+                <p class="main-content__banner-artist">Australia</p>
+                <h4 class="main-content__banner-des">Alan Walker</h4>
+                <p class="information__event">This event was held on June 18, 2022 in Vietnam, with the participation of singer Son Tung MTP and other singers. along with good performances worth waiting for</p>
                 <div class="main-content__banner-btn">
-                    <button class="play-btn">PLAY</button>
-                    <button class="follow-btn">FOLLOW</button>
+                    <button class="play-btn">BUY TICKET</button>
+                    <button class="follow-btn">VIEW MORE</button>
                 </div>
-                <span class="main-content__view">Monthly listeners
-                    <p>50.000</p>
+                <span class="main-content__view">Participating customers
+                    <p>100.000</p>
                 </span>
             </div>
-            <div class="my-playlist">
-                <div class="playlist-head">
-                    <h4>My Playlist</h4>   
-                    <a class="btn-hover">Show all</a> 
+            <div class="main-content__banner event event2">
+                <p class="main-content__banner-artist">America</p>
+                <h4 class="main-content__banner-des">Taylor Swift</h4>
+                <p class="information__event">This event was held on June 18, 2022 in Vietnam, with the participation of singer Son Tung MTP and other singers. along with good performances worth waiting for</p>
+                <div class="main-content__banner-btn">
+                    <button class="play-btn">BUY TICKET</button>
+                    <button class="follow-btn">VIEW MORE</button>
                 </div>
-                <div class="playlist-list">
-                    <div class="playlist playlist-list__title">
-                        <p class="playlist__number">#</p>
-                        <p class="playlist__title">TITLE</p>
-                        <p class="playlist__artist">ARTIST</p>
-                        <p class="playlist__time">TIME</p>
-                    </div>
-                </div>
+                <span class="main-content__view">Participating customers
+                    <p>200.000</p>
+                </span>
             </div>
-
-            <div class="play-song">
-                <div class="play-control">
-                    <div class="play-control__act">
-                        <i class="far fa-heart" id='heart'></i>
-                        <i class="fas fa-music"></i>
-                        <i class="fas fa-expand-alt"></i>
-                    </div>
-                    <div class="play-control__main">
-                        <i class="fas fa-redo-alt play-repeat"></i>
-                        <i class="fas fa-fast-backward play-backward main-icon"></i>
-                        <!-- <i class="fas fa-pause-circle pause-icon main-icon main-icon--big"></i> -->
-                        <span class="play-inner">
-                            <i class="fas fa-play-circle play-icon main-icon main-icon--big"></i>
-                        </span>
-                        <i class="fas fa-fast-forward play-forward main-icon"></i>
-                        <i class="fas fa-random shuffle-song"></i>
-                    </div>
-                    <div class="play-control__volume">
-                        <i class="fas fa-volume-mute"></i>
-                        <input type="range" id="volume" class="volume" value ="1" min = "0" max="1" step="0.1">           
-                        <i class="fas fa-volume-up"></i>
-                    </div>
+            <div class="main-content__banner event event3">
+                <p class="main-content__banner-artist">Korea</p>
+                <h4 class="main-content__banner-des">BTS</h4>
+                <p class="information__event">This event was held on June 18, 2022 in Vietnam, with the participation of singer Son Tung MTP and other singers. along with good performances worth waiting for</p>
+                <div class="main-content__banner-btn">
+                    <button class="play-btn">BUY TICKET</button>
+                    <button class="follow-btn">VIEW MORE</button>
                 </div>
-                <div class="play-seekbar">
-                    <div class="timer__left">0:00</div>
-                    <input type="range" name="range" id="range" class="range" />
-                    <audio src="./assests/mp3/actdm.mp3" id="song"></audio>
-                    <div class="timer__right">3.00</div>
-                </div>
+                <span class="main-content__view">Participating customers
+                    <p>10.000</p>
+                </span>
             </div>
+            <div class="main-content__banner event event4">
+                <p class="main-content__banner-artist">VietNam</p>
+                <h4 class="main-content__banner-des">Son Tung MTP</h4>
+                <p class="information__event">This event was held on June 18, 2022 in Vietnam, with the participation of singer Son Tung MTP and other singers. along with good performances worth waiting for</p>
+                <div class="main-content__banner-btn">
+                    <button class="play-btn">BUY TICKET</button>
+                    <button class="follow-btn">VIEW MORE</button>
+                </div>
+                <span class="main-content__view">Participating customers
+                    <p>999.999</p>
+                </span>
+            </div>
+        </div>
         </div>
 
         <!--
@@ -264,7 +259,6 @@
         </div>
     </div>
 </div>
-    <script src="./assests/main.js"></script>
-    <script src="./assests/javaScript/home.js"></script>
+<script src="./assests/javaScript/new.js"></script>
 </body>
 </html>
